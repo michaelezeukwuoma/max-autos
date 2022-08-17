@@ -1,0 +1,164 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+</head>
+<body>
+    <style>
+        h1{
+            font-size: 50px;
+        }
+        nav{
+            background-color: blue;
+            display: flex;
+        }
+        .logo{
+            color: white;
+        }
+        .links{
+            color: antiquewhite;
+        }
+    </style>
+    
+        <!--nav-bar-->
+        <div class="nav-bar">
+            <nav>
+               <h1 class="logo"> MAX AUTOS</h1>
+               <div class="links">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/max_autos/about.html">About</a></li>
+                    <li><a href="/max_autos/login.html">Iogin</a></li>
+                    <li><a href="/max_autos/register.html">Register</a></li>
+                    <li><a href="">Available stocks</a></li>
+                    <li><a href="">Contact us</a></li>            
+                </ul>
+               </div>
+            </nav><hr>
+        </div>
+        <!--end-of-navbar-->
+    <legend>
+        <h1 style="text-align:center;">REGISTRATION FORM</h1>
+        please provide the following information in order to be registered. <br><br>
+
+        <form style="font-size: 15px; font-weight:bold">
+            <p>PERSONAL INFORMATION</p><hr>
+            <label for="fname">Firstname</label><br>
+            <input type="text" name="fname" id="fname"> <br><br>
+
+            <label for="lname">Last name</label><br>
+            <input type="text" name="lname" id="lname"> <br><br>
+
+            <label for="dob">Date of birth</label><br>
+            <input type="date" name="dob" id="dob"><br><br>
+
+            <p>GENDER</p><hr>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label><br>
+
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label><br>
+
+            <input type="radio" name="gender" id="others" value="others">
+            <label for="others">Others</label><br><br>
+
+            <p>CONTACT DETAILS</p><hr>
+            <label for="tel">Phone number</label><br>
+            <input type="number" name="tel" id="tel"><br><br>
+
+            <label for="town">Town</label><br>
+            <input type="text" name="town" id="town"><br><br>
+
+            <label for="lga">L.G.A</label><br>
+            <input type="text" name="lga" id="lga"><br><br>
+
+            <label for="state">State</label><br>
+            <input type="text" name="state" id="state"><br><br>
+
+            <label for="nationality">Nationality</label><br>
+            <input type="text" name="nationality" id="nationality"><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email"><br><br>
+
+            <label for=ra>Residential address</label><br>
+            <input type="text" name="ra" id="ra"><br><br>
+
+            <label for="oa">Office address</label><br>
+            <input type="text" name="oa" id="oa"><br><br>
+
+            <label for="budget">Whats your budget</label><br>
+            <input type="text" name="budget" id="budget"><br><br>
+
+            <p>BUSINESS</p><hr>
+            <label for="account">Which type of account do you wish to open</label><br>
+            <select name="account" id="account">
+                <option value="nil"></option>
+                <option value="walk-in">Walk-in</option>
+                <option value="regular">Regular</option>
+                <option value="distributor">Distributor</option>
+            </select><br><br>
+
+            Which car brands will you be interested in? (you can tick more than one option) <br>
+            <input type="checkbox" name="brand" id="benz" value="benz">
+            <label for="benz">Benz</label><br>
+
+            <input type="checkbox" name="brand" id="toyota" value="toyota">
+            <label for="toyota">Toyota</label><br>
+
+            <input type="checkbox" name="brand" id="audi" value="audi">
+            <label for="audi">Audi</label><br>
+
+            <input type="checkbox" name="brand" id="honda" value="honda">
+            <label for="honda">Honda</label><br>
+
+            <input type="checkbox" name="brand" id="chevrolet" value="chevrolet">
+            <label for="chevrolet">Chevrolet</label><br>
+
+            <input type="checkbox" name="brand" id="mitsubishi" value="mitsubishi">
+            <label for="mitsubishi">Mitsubishi</label><br><br>
+
+            <p>SECURITY</p><hr>
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="password"><br><br>
+
+            <label for="c-password">Confirm password</label><br>
+            <input type="password" name="c-password" id="c-password"><br><br><hr>
+
+
+
+            <input type="submit" name="submit" id="submit" value="REGISTER">
+        </form>
+    </legend>
+    <!--footer-->
+    <style>
+        footer{
+            background-color: blue;
+            display: flex;
+        }
+    </style>
+    <footer>
+        <div class="contact">
+            <h2 style="color: white;">Contact address</h2>
+            <ul>
+                <li>Phone: +234814972230</li>
+                <li>Email: maxautos@gmail.com</li>
+                <li>facebook: Max Autos</li>
+                <li>Twitter: Max Autos</li>
+                <li>Instagram: Max Autos</li>
+            </ul>
+        </div>
+
+        <div class="address">
+            <h2 style="color: white;">Office Address</h2>
+            <ul>
+                <li>Head office: No.1 Max street, off airport road, Anambra state.</li>
+                <li>Branch: shop 13, along Akpakpava road, Benin city</li>
+            </ul>
+        </div>
+    </footer>
+    <!--end-of-footer-->
+</body>
+</html>
